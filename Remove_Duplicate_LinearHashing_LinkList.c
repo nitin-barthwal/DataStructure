@@ -95,7 +95,7 @@ void show(struct Node* head)
 int main()
 {
     struct Node* head = NULL;
-
+    int size = 12;
     int arr[10]={0}; // assign 0 to all elements of the HashArray
     
     head = allocate(40);
